@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "46be872cd2ce8cf7",
+        "id": "ca2fbde432ddf476",
         "type": "tabs",
         "children": [
           {
-            "id": "0d315767ab8327f0",
+            "id": "38e63bf7f0515385",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          }
-        ]
-      },
-      {
-        "id": "cb676d5d6b3da9d8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b96fd393057b888c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -89,6 +69,16 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "5c71baec05211f5d",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
           }
         ]
       }
@@ -110,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks"
             }
           },
           {
@@ -129,12 +118,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links"
             }
           },
           {
@@ -172,16 +160,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "6da4d2851939d700",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {},
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -190,18 +188,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "canvas:Create new canvas": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "0d315767ab8327f0",
+  "active": "38e63bf7f0515385",
   "lastOpenFiles": [
-    "README.md",
-    "Welcome.md"
+    "Welcome.md",
+    "swamp/Welcome.md",
+    "swamp/README.md",
+    "swamp",
+    "swamp/Cheatsheets/Upgrade your shell.md",
+    "swamp/Cheatsheets/Shell Cheatsheet.md",
+    "swamp/_templates/HTB-Machine.md",
+    "swamp/Cheatsheets",
+    "swamp/_templates/HTB-Challenge.md",
+    "_templates/HTB-Machine",
+    "swamp/_templates",
+    "_attachments",
+    "Excalidraw/Drawing 2025-12-07 16.39.00.excalidraw.md",
+    "Untitled.canvas",
+    "Excalidraw",
+    "README.md"
   ]
 }
