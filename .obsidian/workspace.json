@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "38e63bf7f0515385",
+            "id": "ff77dc2a31599fef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheatsheets/Linux Commands.md",
+                "file": "tcpdump.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Commands"
+              "title": "tcpdump"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#RedTeam",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheatsheets/Linux Commands.md",
+                "file": "tcpdump.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Linux Commands"
+              "title": "Outline of tcpdump"
             }
           },
           {
@@ -179,7 +179,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Cheatsheets/Linux Commands.md"
+                "file": "tcpdump.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -209,12 +209,15 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "38e63bf7f0515385",
+  "active": "ff77dc2a31599fef",
   "lastOpenFiles": [
+    "Cheatsheets/11 - Windows Commands.md",
+    "Cheatsheets/10 - Linux Commands.md",
+    "Cheatsheets/01 - Red Teaming.md",
+    "tcpdump.md",
+    "Cheatsheets/00 - Blue Teaming.md",
     "Cheatsheets/Shell Cheatsheet.md",
     "Cheatsheets/Upgrade your shell.md",
-    "Cheatsheets/Windows Commands.md",
-    "Cheatsheets/Linux Commands.md",
     "swamp/Cheatsheets/Shell Cheatsheet.md",
     "Welcome.md",
     "_templates/HTB-Machine.md",
