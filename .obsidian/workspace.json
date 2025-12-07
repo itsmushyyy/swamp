@@ -84,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 210.50043487548828
   },
   "right": {
     "id": "ba11e5ae86a2396f",
@@ -160,12 +160,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "swamp/Cheatsheets/Shell Cheatsheet.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Shell Cheatsheet"
             }
           },
           {
@@ -173,7 +174,9 @@
             "type": "leaf",
             "state": {
               "type": "footnotes",
-              "state": {},
+              "state": {
+                "file": "swamp/Cheatsheets/Shell Cheatsheet.md"
+              },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
@@ -202,14 +205,22 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "38e63bf7f0515385",
+  "active": "38b27c74fe3b62a7",
   "lastOpenFiles": [
     "Welcome.md",
+    "_templates/HTB-Machine.md",
+    "_templates/HTB-Challenge.md",
+    "_templates",
+    "Cheatsheets/Upgrade your shell.md",
+    "Cheatsheets/Shell Cheatsheet.md",
+    "Cheatsheets",
+    "Topics",
+    "fds.md",
+    "swamp/Cheatsheets/Shell Cheatsheet.md",
+    "swamp/Cheatsheets/Upgrade your shell.md",
     "swamp/Welcome.md",
     "swamp/README.md",
     "swamp",
-    "swamp/Cheatsheets/Upgrade your shell.md",
-    "swamp/Cheatsheets/Shell Cheatsheet.md",
     "swamp/_templates/HTB-Machine.md",
     "swamp/Cheatsheets",
     "swamp/_templates/HTB-Challenge.md",
