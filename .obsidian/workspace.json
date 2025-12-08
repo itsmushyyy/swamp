@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5004348754883
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ba11e5ae86a2396f",
@@ -208,7 +209,7 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "38b27c74fe3b62a7",
+  "active": "ff77dc2a31599fef",
   "lastOpenFiles": [
     "Cheatsheets/11 - Windows Commands.md",
     "tcpdump.md",
