@@ -60,6 +60,22 @@ tcpdump -r capture.pcap -c 2
 -tttt # human readable format
 ```
 
+**Fetch top `src` IP**
+```bash
+tcpdump -tt -r cap.pcap -n tcp | cut -d " " -f 3 | cut -d "." -f 1-4 | sort | uniq -c | sort -nr
+```
+
+**Fetch top `dst` IP**
+```bash
+tcpdump -tt -r cap.pcap -n tcp | cut -d " " -f 5 | cut -d "." -f 1-4 | sort | uniq -c | sort -nr
+```
+
+**Fetch top `ports`**
+```bash
+tcpdump -tt -r cap.pcap -n tcp and src <SRC_IP> and dst <DST_IP> | cut -d " " -f 3 | cut -d "." -f 5 | sort | uniq -c | sort -nr
+
+tcpdump -tt -r cap.pcap -n tcp and dst <DST_IP> and src <SRC_IP> | cut -d " " -f 3 | cut -d "." -f 5 | sort | uniq -c | sort -nr
+```
 
 
 
